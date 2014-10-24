@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {  font-family: 'SerifaBT-T
 .navigation li:hover { cursor: pointer; color: #a9d3d0; }
 .navigation .active { cursor: pointer; color: #f68f67; font-weight: bold; }
 /* General Slides */ 
-.slide { background-attachment: fixed; width: 100%; height: auto; position: relative; padding: 150px 0; min-height: 600px; }
+.slide { background-attachment: fixed; width: 100%; position: relative; padding: 150px 0; height: 600px; overflow: hidden; }
 /* Slide 1 */ 
 #slide1 { background-image: url('img/slides/capa.jpg'); background-size: 100% 100%; }
 #slide1 h1 {  font-size: 5.8em; letter-spacing: -3px; line-height: 1.2; color: #ffffff; font-weight: 700; margin: 0; padding: 0; }
